@@ -1,6 +1,22 @@
 <style>
-  <?php include 'C:\Users\lucas\Documents\xampp\htdocs\accross-the-obelisk-randomizer\style.css'; ?>* {
-    background-color: #000000
+  * {
+    background-color: #000000;
+    color: #f1f1f1;
+    font-size: 30px;
+    font-family: "Mukta", sans-serif;
+  }
+
+  #php-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: transparent;
+  }
+
+  #php-item {
+    color: #f1f1f1;
+    background: transparent;
   }
 </style>
 
@@ -23,5 +39,5 @@ if (isset($_POST['submit'])) {
     echo "<div id=\"php-container\"><p id=\"php-item\">$name will play as the $class" . "<br>" . "<br> </p></div>";
   }, $names, $classes);
 } else {
-  echo "Fail loser lol L.";
+  echo "Please submit the form.";
 }
