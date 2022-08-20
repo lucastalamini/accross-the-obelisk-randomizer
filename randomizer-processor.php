@@ -19,8 +19,6 @@ if (isset($_POST['submit'])) {
 
   shuffle($classes);
 
-  $randomizedArray = array_rand($classes, 4);
-
   array_map(function ($name, $class) {
     echo "<div id=\"php-container\"><p id=\"php-item\">$name will play as the $class" . "<br>" . "<br> </p></div>";
   }, $names, $classes);
