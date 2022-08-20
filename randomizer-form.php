@@ -15,10 +15,10 @@
 <body>
   <div id="main-container">
     <form id="form-container" action="randomizer-processor.php" method="post">
-      <input class="flex-item" type="text" name="nameOne" value="Be">
-      <input class="flex-item" type="text" name="nameTwo" value="Enzo">
-      <input class="flex-item" type="text" name="nameThree" value="Lucas">
-      <input class="flex-item" type="text" name="nameFour" value="Luiz">
+      <input class="flex-item" type="text" name="nameOne" value="Be" required>
+      <input class="flex-item" type="text" name="nameTwo" value="Enzo" required>
+      <input class="flex-item" type="text" name="nameThree" value="Lucas" required>
+      <input class="flex-item" type="text" name="nameFour" value="Luiz" required>
       <button id="btn" type="submit" name="submit">Randomize!</button>
     </form>
   </div>
