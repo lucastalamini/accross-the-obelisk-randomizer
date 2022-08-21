@@ -1,2 +1,2 @@
-# Ignore PHPStorm generate files
+# Ignore PHPStorm generated files.
 .idea
