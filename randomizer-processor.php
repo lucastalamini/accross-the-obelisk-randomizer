@@ -1,24 +1,4 @@
-<style>
-  * {
-    background-color: #000000;
-    color: #f1f1f1;
-    font-size: 30px;
-    font-family: "Mukta", sans-serif;
-  }
-
-  #php-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    background: transparent;
-  }
-
-  #php-item {
-    color: #f1f1f1;
-    background: transparent;
-  }
-</style>
+<link rel="stylesheet" href="style.css" />
 
 <?php
 
